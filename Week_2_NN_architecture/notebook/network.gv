@@ -1,0 +1,283 @@
+digraph g {
+	graph [nodesep=1 ranksep=2 splines=false]
+	edge [arrowhead=none color="#707070"]
+	subgraph cluster_input {
+		node [color="#2ecc71" fontcolor="#2ecc71" shape=circle style=filled]
+		color=white
+		1
+		label="Artificial Neural network - Model Visualization
+
+
+
+Input Layer"
+		rank=same
+		2
+		label="Artificial Neural network - Model Visualization
+
+
+
+Input Layer"
+		rank=same
+		3
+		label="Artificial Neural network - Model Visualization
+
+
+
+Input Layer"
+		rank=same
+		4
+		label="Artificial Neural network - Model Visualization
+
+
+
+Input Layer"
+		rank=same
+		5
+		label="Artificial Neural network - Model Visualization
+
+
+
+Input Layer"
+		rank=same
+		6
+		label="Artificial Neural network - Model Visualization
+
+
+
+Input Layer"
+		rank=same
+		7
+		label="Artificial Neural network - Model Visualization
+
+
+
+Input Layer"
+		rank=same
+		8
+		label="Artificial Neural network - Model Visualization
+
+
+
+Input Layer"
+		rank=same
+		9
+		label="Artificial Neural network - Model Visualization
+
+
+
+Input Layer"
+		rank=same
+	}
+	1 -> 10
+	2 -> 10
+	3 -> 10
+	4 -> 10
+	5 -> 10
+	6 -> 10
+	7 -> 10
+	8 -> 10
+	9 -> 10
+	1 -> 11
+	2 -> 11
+	3 -> 11
+	4 -> 11
+	5 -> 11
+	6 -> 11
+	7 -> 11
+	8 -> 11
+	9 -> 11
+	1 -> 12
+	2 -> 12
+	3 -> 12
+	4 -> 12
+	5 -> 12
+	6 -> 12
+	7 -> 12
+	8 -> 12
+	9 -> 12
+	1 -> 13
+	2 -> 13
+	3 -> 13
+	4 -> 13
+	5 -> 13
+	6 -> 13
+	7 -> 13
+	8 -> 13
+	9 -> 13
+	1 -> 14
+	2 -> 14
+	3 -> 14
+	4 -> 14
+	5 -> 14
+	6 -> 14
+	7 -> 14
+	8 -> 14
+	9 -> 14
+	1 -> 15
+	2 -> 15
+	3 -> 15
+	4 -> 15
+	5 -> 15
+	6 -> 15
+	7 -> 15
+	8 -> 15
+	9 -> 15
+	1 -> 16
+	2 -> 16
+	3 -> 16
+	4 -> 16
+	5 -> 16
+	6 -> 16
+	7 -> 16
+	8 -> 16
+	9 -> 16
+	1 -> 17
+	2 -> 17
+	3 -> 17
+	4 -> 17
+	5 -> 17
+	6 -> 17
+	7 -> 17
+	8 -> 17
+	9 -> 17
+	1 -> 18
+	2 -> 18
+	3 -> 18
+	4 -> 18
+	5 -> 18
+	6 -> 18
+	7 -> 18
+	8 -> 18
+	9 -> 18
+	1 -> 19
+	2 -> 19
+	3 -> 19
+	4 -> 19
+	5 -> 19
+	6 -> 19
+	7 -> 19
+	8 -> 19
+	9 -> 19
+	subgraph cluster_1 {
+		color=white
+		rank=same
+		label=" (+54)" labeljust=right labelloc=b
+		10 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		11 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		12 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		13 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		14 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		15 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		16 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		17 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		18 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		19 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+	}
+	10 -> 20
+	11 -> 20
+	12 -> 20
+	13 -> 20
+	14 -> 20
+	15 -> 20
+	16 -> 20
+	17 -> 20
+	18 -> 20
+	19 -> 20
+	subgraph cluster_2 {
+		color=white
+		20 [label="Activation Layer
+Function: relu" fillcolor="#00b894" fontcolor=white shape=octagon style=filled]
+	}
+	20 -> 21
+	20 -> 22
+	20 -> 23
+	20 -> 24
+	20 -> 25
+	20 -> 26
+	20 -> 27
+	20 -> 28
+	20 -> 29
+	20 -> 30
+	subgraph cluster_3 {
+		color=white
+		rank=same
+		label=" (+246)" labeljust=right labelloc=b
+		21 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		22 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		23 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		24 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		25 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		26 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		27 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		28 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		29 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		30 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+	}
+	21 -> 31
+	22 -> 31
+	23 -> 31
+	24 -> 31
+	25 -> 31
+	26 -> 31
+	27 -> 31
+	28 -> 31
+	29 -> 31
+	30 -> 31
+	subgraph cluster_4 {
+		color=white
+		31 [label="Activation Layer
+Function: relu" fillcolor="#00b894" fontcolor=white shape=octagon style=filled]
+	}
+	31 -> 32
+	31 -> 33
+	31 -> 34
+	31 -> 35
+	31 -> 36
+	31 -> 37
+	31 -> 38
+	31 -> 39
+	31 -> 40
+	31 -> 41
+	subgraph cluster_5 {
+		color=white
+		rank=same
+		label=" (+22)" labeljust=right labelloc=b
+		32 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		33 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		34 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		35 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		36 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		37 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		38 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		39 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		40 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		41 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+	}
+	32 -> 42
+	33 -> 42
+	34 -> 42
+	35 -> 42
+	36 -> 42
+	37 -> 42
+	38 -> 42
+	39 -> 42
+	40 -> 42
+	41 -> 42
+	subgraph cluster_6 {
+		color=white
+		42 [label="Activation Layer
+Function: relu" fillcolor="#00b894" fontcolor=white shape=octagon style=filled]
+	}
+	42 -> 43
+	42 -> 44
+	subgraph cluster_7 {
+		color=white
+		rank=same
+		label="" labeljust=right labelloc=b
+		43 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+		44 [color="#3498db" fontcolor="#3498db" shape=circle style=filled]
+	}
+	subgraph cluster_output {
+	}
+	arrowShape=none
+}
